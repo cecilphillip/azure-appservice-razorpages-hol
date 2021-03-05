@@ -3,17 +3,17 @@ Publishing your first Razor Pages application to Azure
 
 ## Introduction
 
-The release of ASP .NET Core 2 brings .NET developers many new features for building web applications. For a comprehensive list of updates, you can read the [release notes](https://github.com/dotnet/core/blob/master/release-notes/2.0/2.0.0.md). The feature that this lab focuses on in this lab is the new [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/mvc/razor-pages/?tabs=visual-studio-code) programming model. With Razor Pages, there is a new page-first structure that allows you to focus on the user-interface and simplify the server-side experience. It is built on top of the existing MVC APIs in ASP.NET Core and uses the same Razor view engine.
+The release of ASP .NET Core 2 brings .NET developers many new features for building web applications. For a comprehensive list of updates, you can read the [release notes](https://github.com/dotnet/core/blob/master/release-notes/2.0/2.0.0.md). The feature that this lab focuses on in this lab is the new [Razor Pages](https://docs.microsoft.com/aspnet/core/mvc/razor-pages/?tabs=visual-studio-code&WT.mc_id=academic-0000-cephilli) programming model. With Razor Pages, there is a new page-first structure that allows you to focus on the user-interface and simplify the server-side experience. It is built on top of the existing MVC APIs in ASP.NET Core and uses the same Razor view engine.
 
 The goal of this lab is to show you how to create a new ASP.NET Core application using the Razor Pages programming model, and then publish your application into an Azure App Service. The instructions provided should work consistently across operating systems. Therefore, you should be able to complete this lab whether you're on Windows, Linux, or MacOS.
 
 Before starting, you need to make sure you have the following tools and accounts set up.
 
-1. [Visual Studio Code](https://code.visualstudio.com/)
-2. [.NET Core 2.0 SDK](https://www.microsoft.com/net/download)
+1. [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-cephilli)
+2. [.NET Core 2.0 SDK](https://www.microsoft.com/net/download?WT.mc_id=academic-0000-cephilli)
 3. [Git commandline tools](https://git-scm.com/download)
 4. [GitHub account](https://github.com/)
-5. [Microsoft Azure account](https://azure.microsoft.com/free)
+5. [Microsoft Azure account](https://azure.microsoft.com/free?WT.mc_id=academic-0000-cephilli)
 
 If you ever get stuck with the lab exercises, feel free to review the completed solution inside of the **final** folder.
 
@@ -47,8 +47,8 @@ Visual Studio Code is a great editor by itself. However, if you want to debug an
 ### Steps
 1. Inside of Visual Studio Code, click on the extensions icon in the left vertical menu.
 2. Once the `Extensions` section is open, search for C#.
-3. Install the [C# extension from Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp).
-4. Also install the [C# IDE extensions from jchannon](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions).
+3. Install the [C# extension from Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp&WT.mc_id=academic-0000-cephilli).
+4. Also install the [C# IDE extensions from jchannon](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions&WT.mc_id=academic-0000-cephilli).
 5. Restart Visual Studio Code to complete the installation.
 
 <a name="Exercise3"></a>
@@ -182,7 +182,7 @@ Before doing that, you need to push your application code into a GitHub reposito
 
 <a name="Exercise6"></a>
 ## 6. Create a Web App in Azure
-Azure offers a few options for hosting web applications in the cloud. This exercise walks you through creating an [Azure Web App](https://azure.microsoft.com/en-us/services/app-service/web/). Azure Web Apps enable you to build and host web applications in the programming language of your choice without managing infrastructure. It supports both Windows and Linux, and enables automated deployments from various services.
+Azure offers a few options for hosting web applications in the cloud. This exercise walks you through creating an [Azure Web App](https://azure.microsoft.com/services/app-service/web/?WT.mc_id=academic-0000-cephilli). Azure Web Apps enable you to build and host web applications in the programming language of your choice without managing infrastructure. It supports both Windows and Linux, and enables automated deployments from various services.
 
 ### Steps
 1. Navigate to the Azure portal in your web browser.
@@ -214,7 +214,7 @@ With your code in Github and a Web App created in Azure, it is time to connect t
 ## References
 In this lab, you got the opportunity to create a Razor Pages application using ASP .NET Core and the .NET CLI. At the end, you saw how you could easily deploy your application to Azure using GitHub. If you are interested in learning morning, take a look at the following links to other resources.
 
-* [ASP.NET Core Razor Pages documentation](https://docs.microsoft.com/aspnet/core/mvc/razor-pages/?tabs=visual-studio)
-* [Azure Web Apps documentation](https://docs.microsoft.com/azure/app-service/)
-* [Deploy an ASP.NET Core app to Azure App Service](https://docs.microsoft.com/aspnet/core/tutorials/publish-to-azure-webapp-using-cli?tabs=other)
-* [Razor Pages videos on Channel9](https://channel9.msdn.com/Search?term=%22Razor%20Pages%22#pubDate=year&ch9Search&lang-en=en)
+* [ASP.NET Core Razor Pages documentation](https://docs.microsoft.com/aspnet/core/mvc/razor-pages/?tabs=visual-studio&WT.mc_id=academic-0000-cephilli)
+* [Azure Web Apps documentation](https://docs.microsoft.com/azure/app-service/?WT.mc_id=academic-0000-cephilli)
+* [Deploy an ASP.NET Core app to Azure App Service](https://docs.microsoft.com/aspnet/core/tutorials/publish-to-azure-webapp-using-cli?tabs=other&WT.mc_id=academic-0000-cephilli)
+* [Razor Pages videos on Channel9](https://channel9.msdn.com/Search?term="Razor Pages"&WT.mc_id=academic-0000-cephilli#pubDate=year&ch9Search&lang-en=en)
